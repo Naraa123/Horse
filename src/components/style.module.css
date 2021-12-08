@@ -1,0 +1,20 @@
+.Big {
+  position: sticky;
+  background-color: aqua;
+  height: 100%;
+  /* scroll-behavior: auto; */
+}
+
+@media (min-width: 1000px) {
+  .Big {
+    background-color: blue;
+    width: 1000px;
+    left: calc(50% - 500px);
+  }
+}
+.Gadnah {
+  /* background-color: #1f1f2e; */
+  background-image: url("../img/purple.png");
+  background-size: 100% 100%;
+  padding-bottom: 30px;
+}

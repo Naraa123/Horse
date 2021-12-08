@@ -1,0 +1,19 @@
+.Menu {
+  display: flex;
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+  /* background-color: rgba(31, 41, 55, var(--tw-bg-opacity)); */
+  flex-flow: column;
+  list-style: none;
+  margin: 0px;
+  padding: 9px 0px;
+  height: 100%;
+  align-items: center;
+}
+
+@media (min-width: 700px) {
+  .Menu {
+    /* large uyiin garchigiig hajuu daraalsan */
+    /* display: flex; */
+    flex-flow: row;
+  }
+} ;
